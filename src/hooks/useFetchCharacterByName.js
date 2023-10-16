@@ -1,7 +1,7 @@
-import { useState,useEffect } from 'react';
-import {getCharacters} from '../helpers/getCharacters';
+import { useState,useEffect } from "react";
+import { getCharacterByName } from "../helpers/getCharacterByName"
 
-export const useFetchCharacters = () => {
+export const useFetchCharacterByName = (character) => {
     const [state,setState] = useState({
         data:[],
         loading:true,
@@ -9,16 +9,15 @@ export const useFetchCharacters = () => {
 
 
     useEffect(() => {
-        getCharacters()
+        getCharacterByName(character)
             .then(characters => {
                 setState({
                     data:characters,
                     loading:false
+
                 })
             })
-
-    },[])
+    },[character])
     
-
     return state;
 }

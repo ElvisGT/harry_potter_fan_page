@@ -10,6 +10,8 @@ html {
 
 body {
     font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8dc00;
 }
 
 .title {
@@ -23,6 +25,7 @@ body {
    display: flex;
    flex-direction: column;
    align-items: center;
+   
 }
 
 .card {
@@ -41,14 +44,24 @@ body {
     object-fit: contain;
     width: 25rem;
     height: 25rem;
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 .btn {
     font-size: 1.6rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
+
 .ring {
+    display: flex;
+    justify-content: center;
+}
+.character-details-container{
+    background-color: white;
+    min-height: 100vh;
+    width: 100%;
+}
+.character-details-button {
     display: flex;
     justify-content: center;
 }
