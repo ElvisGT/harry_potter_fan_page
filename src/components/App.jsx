@@ -1,9 +1,9 @@
 import React from 'react';
 import { useFetchCharacters } from '../hooks/useFetchCharacters';
 import { Ring } from '@uiball/loaders'
-import Card from './Card';
+import CharactersCard from './CharactersCard';
 
-const App = () => {
+export const App = () => {
   const {data,loading} = useFetchCharacters();
 
   return (
@@ -22,11 +22,10 @@ const App = () => {
         }
         {
           data.map(item => (
-            <Card key={item.id} {...item}/>
+            <CharactersCard key={item.id} {...item}/>
           ))
         }
     </>
   )
 }
 
-export default App
