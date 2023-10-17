@@ -1,8 +1,10 @@
-# React + Vite
+# Simpsons Fan Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aqui podemos conocer de cerca a nuestros personajes favoritos
 
-Currently, two official plugins are available:
+## Para ejecutarlo debes seguir los siguientes pasos
+1. `git clone https://github.com/ElvisGT/simpsons_fan_page.git`
+2. `cd simpsons_fan_page`
+3. `npm install`
+4. `npm run dev`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
