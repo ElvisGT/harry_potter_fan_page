@@ -55,6 +55,7 @@ body {
 .ring {
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
 }
 .character-details-container{
     background-color: white;
@@ -65,3 +66,26 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.searchCharacter-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.searchCharacter {
+    width: 40rem;
+    padding: .5rem;
+    border: .2rem solid grey;
+    border-radius: 1.5rem;
+
+}
+
+.searchCharacter::placeholder {
+    font-style: italic;
+    color: grey;
+}
+
+.searchCharacter:focus {
+    outline: .2rem solid #077EC1;
+}
+
