@@ -8,3 +8,4 @@ Aqui podemos conocer de cerca a nuestros personajes favoritos
 3. `npm install`
 4. `npm run dev`
 
+<img src="https://i.ibb.co/DzyWyFs/Screenshot-2023-10-17-195708.png" alt="captura de los simpsons">
